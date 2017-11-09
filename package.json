@@ -1,0 +1,30 @@
+{
+  "name": "toolbox-example",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "meteor-node-stubs": "^0.3.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-toolbox": "^2.0.0-beta.12"
+  },
+  "cssModules": {
+    "extensions": [
+      "scss"
+    ],
+    "globalVariables": [
+      "node_modules/react-toolbox/lib/colors.css",
+      {
+        "theme-building": true
+      },
+      "client/toolbox/theme.css"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  }
+}
